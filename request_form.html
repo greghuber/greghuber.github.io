@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Information Request</title>
+</head>
+<body>
+<h1>Request More Information</h1>
+<h3>Fill out and submit this form for more information<br>specific to your cycling interests!</h3>
+<br>
+<form action="success.html" method="post">
+	<fieldset>
+	
+		<div>
+			<label>Name:</label>
+			<input type="text" name="name">
+		</div>
+		<p>Address:</p>
+		<div>
+			#<label>Address:</label>
+			<input type="text" name="name" placeholder="Street">
+		</div>
+		<div>
+			#<label>Address:</label>
+			<input type="text" name="name" placeholder="Street">
+		</div>
+		<div>
+			#<label>Address:</label>
+			<input type="text" name="name" placeholder="City">
+		</div>
+		<div>
+			#<label>Address:</label>
+			<input type="text" name="name" placeholder="State">
+		</div>
+		<div>
+			#<label>Address:</label>
+			<input type="text" name="name" placeholder="Zip Code">
+		</div>
+		<div>
+			<label>Email:</label>
+			<input type=“email” name=“email”>
+		</div>	
+
+		<div>
+			<input type="checkbox" name="share_email" value="approve_email">
+			Please share my email address with USA cycling.
+		</div>
+		<div>
+			<label>The type of bike I am interested in is:</label>
+			<select name="bike">
+			<option value=”bike_type”>Road Bike</option>
+			<option value=”bike_type”>Mountain Bike</option>
+			<option value=”bike_type”>Hybrid Bike</option>
+			</select>
+		</div>
+		<div>
+			<label>I am interested in cycling for:</label>
+			<select name="purpose">
+			<option value=”activity”>Excercise</option>
+			<option value=”activity”>Social</option>
+			<option value=”activity”>Commuting</option>
+			<option value=”activity”>Travel</option>
+			<option value=”activity”>Racing</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label>What specific questions do you have:</label>
+			<br>
+			<textarea name="questions" rows="4" cols="50">Type your questions here...
+			</textarea>
+		</div>
+
+	</fieldset>
+	<button type="submit">Submit</button>
+	
+	
+</form>
+</body>
+</html>
