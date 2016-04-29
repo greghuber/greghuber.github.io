@@ -1,8 +1,9 @@
 body {
-	background: #80ccff;
+	background: #f4c88a;
 }
 h1 {
 	margin-left: 13px;
+	color: #75490b;
 }
 h1, h2 {
 	font-family: Arial black, sans-serif
@@ -16,6 +17,7 @@ h1, h2 {
 	margin-bottom: 50px;
 	margin-left: 13px;
 	font-family: Avenir, sans-serif;
+	color: #462c07;
 }
 section {
 	font-family: Avenir, sans-serif;
@@ -27,6 +29,11 @@ section {
 	border-width: 1px;
 	border-radius: 10px;
 	margin-top: 10px;
+	color: #462c07;
+	#width: 690px;
+}
+#usa {
+	font-weight: bold;
 }
 a:link {
 	color: purple;
@@ -36,4 +43,6 @@ a:visited {
 }
 footer {
 	text-align: center;
+	color: white;
+	text-shadow: black 1px 1px;
 }
