@@ -1,10 +1,24 @@
 body {
 	background: #80ccff;
 }
-h1, h2{
+h1 {
+	margin-left: 13px;
+}
+h1, h2 {
+	font-family: Arial black, sans-serif
+} 
+.benefits {
+	background-image: url("cycling_tile03.jpg");
+	background-position: right;
+}
+.purpose {
+	margin-top: 5px;
+	margin-bottom: 50px;
+	margin-left: 13px;
 	font-family: Avenir, sans-serif;
 }
 section {
+	font-family: Avenir, sans-serif;
 	padding-left: 15px;
 	padding-bottom: 1px;
 	background-color: white;
@@ -13,6 +27,12 @@ section {
 	border-width: 1px;
 	border-radius: 10px;
 	margin-top: 10px;
+}
+a:link {
+	color: purple;
+}
+a:visited {
+	color: blue;
 }
 footer {
 	text-align: center;
