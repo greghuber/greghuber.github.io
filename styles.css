@@ -1,3 +1,86 @@
 body {
-	background: #80ccff;
+	background: #f4c88a;
+}
+h1 {
+	font-size: 4em;
+	margin-top: 50px;
+	margin-left: 13px;
+	color: white;
+	text-shadow: #75490b 3px 2px;
+}
+h1, h2 {
+	font-family: Arial black, sans-serif
+} 
+.purpose {
+	margin-top: -20px;
+	margin-bottom: 50px;
+	margin-left: 17px;
+	font-family: Avenir, sans-serif;
+	color: #75490b;
+}
+.photo {
+	width: 800px;
+	height: 240px;
+	text-align: left;
+	overflow: hidden;
+}
+.benefits {
+	background-image: url("cycling_tile04.jpg");
+}
+.information {
+	background-color: #f5debc;
+}
+section {
+	font-family: Avenir, sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 1px;
+	background-color: #f5debc;
+	border-style: solid;
+	border-color: #462c07;
+	border-width: 1px;
+	border-radius: 10px;
+	margin-top: 10px;
+	color: #462c07;
+	width: 673px;
+}
+li {
+	font-size: .8em;
+}
+.information p {
+	font-size: .8em;
+}
+
+#usa {
+	font-weight: bold;
+}
+a:link {
+	color: purple;
+}
+a:visited {
+	color: blue;
+}
+footer {
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	text-shadow: black 1px 1px;
+}
+@media only screen and (max-width: 760px) {
+    body {
+        /*Element to check responsivity*/
+        /*background: lightblue;*/
+    }
+	.photo {
+	width: 515px;
+	}
+	h1 {
+		font-size: 3em;	
+	}
+	.purpose {
+		font-size: .75em;
+	}
+	section {
+		width: 483px;
+	}
 }
